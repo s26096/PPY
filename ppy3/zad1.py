@@ -4,15 +4,15 @@ liczby = liczby.split(",")
 for ids, s in enumerate(liczby):
     liczby[ids] = int(liczby[ids])
 
-max = liczby[0]
+maximum = liczby[0]
 for i in liczby:
-    if i > max:
-        max = i
+    if i > maximum:
+        maximum = i
 
-min = liczby[0]
+minimum = liczby[0]
 for i in liczby:
-    if i < min:
-        min = i
+    if i < minimum:
+        minimum = i
 
-print(max)
-print(min)
+print(maximum)
+print(minimum)
